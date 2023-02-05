@@ -1,0 +1,17 @@
+- Menu/navigation
+	- Background
+		- General college info
+		- Where I'm from
+		- Family/Friends
+	- Hobbies
+		- Video Games
+		- Listening to music
+		- Running
+	- Life Goals
+		- Make new friends
+		- Learn how to bake
+		- Become a better person
+	- 3 Wishes
+		- Never have to sleep
+		- Make clones of myself
+		- Telekinesis
