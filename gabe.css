@@ -24,8 +24,8 @@ body {
 .nav-text {
     color: black;
     text-decoration: none;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 60px;
+    font-weight: 500;
 }
 
 .nav-text:hover {
@@ -60,8 +60,8 @@ body {
     border-color: lightcoral;
     border-style: solid;
     border-width: 2px;
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 500;
     margin-top: 10px;
 }
 
@@ -69,7 +69,22 @@ body {
     border-color: lightcoral;
     border-style: solid;
     border-width: 2px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 500;
     font-style: italic;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 15fr 2fr;
+}
+
+.content-p {
+    font-size: 25px;
+    margin-top: 0;
+    padding-right: 30px;
+}
+
+.content-img {
+    width: 100%;
 }
