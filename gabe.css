@@ -15,14 +15,15 @@ div {
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font: 50px;
+    margin: auto;
 }
 
 .nav-link {
-    margin: auto;
     /* border-color: lightcoral;
     border-style: solid;
     border-width: 2px; */
+    display: flex;
+    justify-content: center;
 }
 
 .nav-text {
@@ -32,9 +33,19 @@ div {
     font-weight: 500;
 }
 
-.goto-top-text:hover,
+/* .goto-top-text:hover,
 .nav-text:hover {
     color: rgb(206, 18, 18);
+} */
+
+.nav-link,
+.goto-top {
+    transition: 0.5s;
+}
+
+.nav-link:hover,
+.goto-top:hover {
+    background-color: lightcoral;
 }
 
 .goto-top {
@@ -70,7 +81,7 @@ div {
     /* border-bottom: 2px solid;
     border-bottom-color: lightcoral;
     margin-right: 20px; */
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 500;
     margin-top: 10px;
 }
