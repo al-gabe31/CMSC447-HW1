@@ -19,9 +19,6 @@ div {
 }
 
 .nav-link {
-    /* border-color: lightcoral;
-    border-style: solid;
-    border-width: 2px; */
     display: flex;
     justify-content: center;
 }
@@ -32,11 +29,6 @@ div {
     font-size: 60px;
     font-weight: 500;
 }
-
-/* .goto-top-text:hover,
-.nav-text:hover {
-    color: rgb(206, 18, 18);
-} */
 
 .nav-link,
 .goto-top {
@@ -78,18 +70,12 @@ div {
 }
 
 .p-header {
-    /* border-bottom: 2px solid;
-    border-bottom-color: lightcoral;
-    margin-right: 20px; */
     font-size: 60px;
     font-weight: 500;
     margin-top: 10px;
 }
 
 .p-sub {
-    /* border-color: lightcoral;
-    border-style: solid;
-    border-width: 2px; */
     font-size: 35px;
     font-weight: 500;
     font-style: italic;
